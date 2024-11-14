@@ -226,6 +226,7 @@ body {
     justify-content: space-between;
     margin: 30px;
     padding-bottom: 50;
+    gap: 100px;
 }
 
 .news-card-1 {
@@ -264,11 +265,115 @@ body {
     border-radius: 10px;
 }
 
+.Title-Story {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 800;
+}
+
 .Gogo-story {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+.section-title {
+    width: 1100px;
+    height: 25.5px;
+    color: #000;
+    font: 26px;
+    font-weight: bold;
+}
+
+.gg-label-blue {
+    width: 69.76px;
+    height: 25.5px;
+    color: #fff;
+    font: 18px;
+    background-color: #00b0f4;
+    padding: 2px 3px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.story-1 {
+position: relative;
+width: 200px;
+
+}
+
+.story-GG {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #00b0f4;
+    color: #fff;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.story-1 {
+    width: 170.8px;
+    height: 235px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-radius: 5px;
+    font-weight: 400px;
+}
+
+.story-2 {
+    width: 170.8px;
+    height: 235px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-radius: 5px;
+    font-weight: 400px;
+}
+
+.story-3 {
+    width: 170.8px;
+    height: 235px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-radius: 5px;
+    font-weight: 400px;
+}
+
+.story-4 {
+    width: 170.8px;
+    height: 235px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-radius: 5px;
+    font-weight: 400px;
+}
+
+.story-5 {
+    width: 170.8px;
+    height: 235px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-radius: 5px;
+    font-weight: 400px;
+}
+
+.story-6 {
+    width: 170.8px;
+    height: 235px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-radius: 5px;
+    font-weight: 400px;
+}
+
+
+
 
 
 
