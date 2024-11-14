@@ -185,37 +185,37 @@ body {
 }
 
 .Title-1:hover+.hide {
-    display: block;
-    background-color: gray;
+    display: flex;
+    background-color: white;
     position: absolute;
     top: 57px;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 250px;
 }
 
 .Title-2:hover+.hide {
-    display: block;
-    background-color: gray;
+    display: flex;
+    background-color: white;
     position: absolute;
     top: 57px;
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 200px;
 }
 
 .Title-3:hover+.hide {
-    display: block;
-    background-color: gray;
+    display: flex;
+    background-color: white;
     position: absolute;
     top: 57px;
-    width: 500px;
-    height: 500px;
+    width: 200px;
+    height: 150px;
 }
 
 .Title-4:hover+.hide {
-    display: block;
-    background-color: gray;
+    display: flex;
+    background-color: white;
     position: absolute;
     top: 57px;
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 200px;
 }
