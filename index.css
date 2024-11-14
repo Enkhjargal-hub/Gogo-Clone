@@ -264,3 +264,11 @@ body {
     border-radius: 10px;
 }
 
+.Gogo-story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
