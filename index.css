@@ -219,3 +219,48 @@ body {
     width: 350px;
     height: 200px;
 }
+
+.news-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+    padding-bottom: 50;
+}
+
+.news-card-1 {
+    width: 263.75px;
+    height: 175px;
+    color: #000;
+    font: 14px helvetica;
+    margin: 10px 0px 0px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.news-card-2 {
+    width: 263.75px;
+    height: 175px;
+    color: #000;
+    font: 14px helvetica;
+    margin: 10px 0px 0px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.news-card-3 {
+    width: 263.75px;
+    height: 175px;
+    color: #000;
+    font: 14px helvetica;
+    margin: 10px 0px 0px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.news-card-4 {
+    width: 263px;
+    height: 270px;
+    border-radius: 10px;
+}
+
