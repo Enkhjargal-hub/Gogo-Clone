@@ -222,7 +222,6 @@ body {
 
 .news-1 {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     margin: 30px;
     padding-bottom: 50;
@@ -269,7 +268,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 800;
 }
 
 .Gogo-story {
@@ -279,7 +277,6 @@ body {
 }
 
 .section-title {
-    width: 1100px;
     height: 25.5px;
     color: #000;
     font: 26px;
@@ -304,6 +301,37 @@ width: 200px;
 
 }
 
+.story-2 {
+    position: relative;
+    width: 200px;
+    
+}
+
+.story-3 {
+    position: relative;
+    width: 200px;
+    
+}
+
+.story-4 {
+    position: relative;
+    width: 200px;
+    
+}
+
+.story-5 {
+    position: relative;
+    width: 200px;
+    
+}
+
+.story-6 {
+    position: relative;
+    width: 200px;
+    
+}
+
+
 .story-GG {
     position: absolute;
     top: 10px;
@@ -318,7 +346,7 @@ width: 200px;
 
 }
 
-.story-1 {
+.story-1-img {
     width: 170.8px;
     height: 235px;
     border-bottom-left-radius: 5px;
@@ -327,7 +355,7 @@ width: 200px;
     font-weight: 400px;
 }
 
-.story-2 {
+.story-2-img {
     width: 170.8px;
     height: 235px;
     border-bottom-left-radius: 5px;
@@ -336,7 +364,7 @@ width: 200px;
     font-weight: 400px;
 }
 
-.story-3 {
+.story-3-img {
     width: 170.8px;
     height: 235px;
     border-bottom-left-radius: 5px;
@@ -345,7 +373,7 @@ width: 200px;
     font-weight: 400px;
 }
 
-.story-4 {
+.story-4-img {
     width: 170.8px;
     height: 235px;
     border-bottom-left-radius: 5px;
@@ -354,7 +382,7 @@ width: 200px;
     font-weight: 400px;
 }
 
-.story-5 {
+.story-5-img {
     width: 170.8px;
     height: 235px;
     border-bottom-left-radius: 5px;
@@ -363,7 +391,7 @@ width: 200px;
     font-weight: 400px;
 }
 
-.story-6 {
+.story-6-img {
     width: 170.8px;
     height: 235px;
     border-bottom-left-radius: 5px;
@@ -372,7 +400,22 @@ width: 200px;
     font-weight: 400px;
 }
 
+.text-card-1 {
+    color: white;
+    font: 13px;
+    font-weight: 500;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    bottom: 0;
+}
 
+
+.news-container{
+    position: relative;
+}
 
 
 
