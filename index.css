@@ -417,6 +417,74 @@ width: 200px;
     position: relative;
 }
 
+.Today {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 103.81px;
+    height: 26.87px;
+}
+
+.Calendar {
+    color: #407ce8;
+    font: 16px;
+    font-weight: bold;
+    margin: 0px 0px 15px;
+    cursor: pointer;
+    display: block;
+    font-weight: 700;
+    margin-bottom: 5px;
+    
+}
+
+.Today-column {
+    width: 1000px;
+    height: 39px;
+    color: #407ce8;
+    font: 13px;
+    flex-direction: row;
+    display: flex;
+    margin: 5px;
+    gap: 30px;
+    padding: 0px 0px 0px 15px;
+}
+
+
+.calendar-text {
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calendar-day-1 {
+    border: none;
+    border-radius: 3px;
+    background-color: #407ce8;
+    width: 103px;
+    height: 7px;
+}
+
+.calendar-day {
+    border: none;
+    border-radius: 3px;
+    background-color: #efefef;
+    width: 103px;
+    height: 7px;
+}
+
+.calendar-datepicker {
+    border: none;
+    border-radius: 5px;
+    background-color: #efefef;
+    color: #6c6c6c;
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    transition: 0.2s;
+    flex-direction: row;
+    justify-content: flex-end;
+}
 
 
 
