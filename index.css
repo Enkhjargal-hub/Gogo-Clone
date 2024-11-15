@@ -98,7 +98,9 @@ body {
     background-color: gainsboro;
     margin: 0px 0px 0px -15px;
     padding-left: 40px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .Bisness {
