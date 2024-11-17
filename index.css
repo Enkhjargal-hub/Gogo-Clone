@@ -505,3 +505,26 @@ gap: 40px;
     margin: 10px 0px 15px;
 }
 
+.Number {
+    color: #888;
+}
+
+.Time {
+    color: #888;
+}
+
+.Comment {
+    color: #888;
+}
+
+.News-more {
+    width: 648px;
+    height: 23.36px;
+    color: #000;
+    background-color: #f8f8f8;
+    padding: 20px;
+    font: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
