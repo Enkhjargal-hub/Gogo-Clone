@@ -488,5 +488,9 @@ width: 200px;
     justify-content: flex-end;
 }
 
-
+.News-img {
+width: 210px;
+height: 150px;
+gap: 40px;
+}
 
