@@ -19,7 +19,8 @@ body {
     width: 1200px;
 
 }
-
+.medee{
+}
 .Title-1 {
     width: 95.99px;
     height: 22px;
@@ -457,7 +458,6 @@ main{
 
 .Today-column {
     width: 1000px;
-    height: 39px;
     color: #407ce8;
     font: 13px;
     flex-direction: column;
@@ -545,6 +545,14 @@ gap: 40px;
     align-items: center;
     justify-content: center;
 }
+.news-list{
+    display: flex;
+}
+
+.News-text {
+    display: flex;
+flex-direction: column;
+}
 
 .Poll-title {
     color: white;
@@ -608,3 +616,18 @@ gap: 40px;
 .News-text {
     justify-content: flex-end;
 }
+
+
+.Special-text {
+font-size: 15px;
+width: 290px;
+height: 60px;
+margin: 10px 0px 0px;
+color: #000;
+}
+
+.Special-img {
+    width: 290px;
+    height: 170px;
+}
+
