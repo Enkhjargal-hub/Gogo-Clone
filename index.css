@@ -547,7 +547,64 @@ gap: 40px;
 }
 
 .Poll-title {
-    font: 16px;
     color: white;
     font-weight: bold;
+    font-weight: 700px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Poll-answer-1 {
+    color: white;
+    display: flex;
+    height: 48px;
+}
+
+.Poll {
+    border: none;
+    background-color: #007aff;
+    color: white;
+    width: 690px;
+    height: 322px;
+}
+
+.ANSWER {
+    justify-content: space-between;
+    display: flex;
+    color: #fff;
+    padding: 15px 10px;
+    font: 14px;
+    width: 600px;
+    height: 35px;
+    margin: 0px 0px 0px -15px;
+}
+
+.Total-answer {
+    width: 650px;
+    height: 22px;
+    font: 14px;
+    margin: 10px 0px 0px;
+    color: #fff;
+}
+
+.Total-year {
+    font-weight: bold;
+    width: 31.14px;
+    height: 16.5px;
+    font: 14px;
+    color: #fff;
+}
+
+.radio {
+    background-color: #ffffff1a;
+    width: 575px;
+    height: 75px;
+    padding: 15px 10px;
+    border: none;
+}
+
+.News-text {
+    justify-content: flex-end;
 }
