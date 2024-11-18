@@ -631,3 +631,29 @@ color: #000;
     height: 170px;
 }
 
+.Trend-news{
+    border: none;
+    background-color: pink;
+    width: 340px;
+    height: 1348px;
+}
+
+.Trend-news-title {
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: center;
+    width: 340px;
+    height: 88.33px;
+}
+
+.Trend-text {
+    font-size: 14px;
+}
+
+.Trend-1 {
+    gap: 8px;
+}
+
