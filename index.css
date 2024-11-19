@@ -696,3 +696,40 @@ main {
     padding: 2px 5px;
     font-weight: bold;
 }
+
+.Gogo-B {
+    color: #000;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.Style-button {
+    background-color: #00b0f4;
+    color: white;
+    width: 101.01px;
+    height: 25.5px;
+    padding: 2px 3px;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.News-section{
+    gap: 10px;
+}
+
+.Style-1 {
+    width: 263.75px;
+    height: 230px;
+
+}
+
+.gogo-border {
+    width: 241.75px;
+    height: 72px;
+    color: #000;
+    font-size: 16px;
+}
+.All-style{
+    display: flex;
+}
