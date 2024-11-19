@@ -20,8 +20,6 @@ body {
 
 }
 
-.medee {}
-
 .Title-1 {
     width: 95.99px;
     height: 22px;
@@ -725,11 +723,17 @@ main {
 }
 
 .gogo-border {
-    width: 241.75px;
-    height: 72px;
+    width: 263.75px;
+    height: 130px;
     color: #000;
     font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    gap: 40px;
 }
+
 .All-style{
     display: flex;
+    gap: 10px;
 }
+
