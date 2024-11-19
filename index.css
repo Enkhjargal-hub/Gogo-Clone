@@ -19,8 +19,9 @@ body {
     width: 1200px;
 
 }
-.medee{
-}
+
+.medee {}
+
 .Title-1 {
     width: 95.99px;
     height: 22px;
@@ -299,39 +300,39 @@ body {
 }
 
 .story-1 {
-position: relative;
-width: 200px;
+    position: relative;
+    width: 200px;
 
 }
 
 .story-2 {
     position: relative;
     width: 200px;
-    
+
 }
 
 .story-3 {
     position: relative;
     width: 200px;
-    
+
 }
 
 .story-4 {
     position: relative;
     width: 200px;
-    
+
 }
 
 .story-5 {
     position: relative;
     width: 200px;
-    
+
 }
 
 .story-6 {
     position: relative;
     width: 200px;
-    
+
 }
 
 
@@ -416,7 +417,7 @@ width: 200px;
 }
 
 
-.news-container{
+.news-container {
     position: relative;
 }
 
@@ -427,7 +428,8 @@ width: 200px;
     width: 103.81px;
     height: 26.87px;
 }
-main{
+
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -443,13 +445,15 @@ main{
     display: block;
     font-weight: 700;
     margin-bottom: 5px;
-    
+
 }
-.date-container{
+
+.date-container {
     display: flex;
     gap: 10px;
 }
-.Story-section{
+
+.Story-section {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -506,9 +510,9 @@ main{
 }
 
 .News-img {
-width: 210px;
-height: 150px;
-gap: 40px;
+    width: 210px;
+    height: 150px;
+    gap: 40px;
 }
 
 .News-title {
@@ -545,13 +549,14 @@ gap: 40px;
     align-items: center;
     justify-content: center;
 }
-.news-list{
+
+.news-list {
     display: flex;
 }
 
 .News-text {
     display: flex;
-flex-direction: column;
+    flex-direction: column;
 }
 
 .Poll-title {
@@ -619,11 +624,11 @@ flex-direction: column;
 
 
 .Special-text {
-font-size: 15px;
-width: 290px;
-height: 60px;
-margin: 10px 0px 0px;
-color: #000;
+    font-size: 15px;
+    width: 290px;
+    height: 60px;
+    margin: 10px 0px 0px;
+    color: #000;
 }
 
 .Special-img {
@@ -631,7 +636,7 @@ color: #000;
     height: 170px;
 }
 
-.Trend-news{
+.Trend-news {
     border: none;
     background-color: pink;
     width: 340px;
@@ -657,3 +662,37 @@ color: #000;
     gap: 8px;
 }
 
+.Interview-1 {
+    width: 542.5px;
+    height: 500px;
+}
+
+.abso-text {
+    color: white;
+}
+
+#text {
+        position: absolute;
+    bottom: 0;
+    z-index: 2;
+    left: 0;
+}
+
+.Interview-gol {
+    color: black;
+}
+
+.Interview-2 {
+    width: 263.75px;
+    height: 243px;
+}
+
+.History {
+    background-color: #1e87f0;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 10px;
+    padding: 2px 5px;
+    font-weight: bold;
+}
