@@ -771,3 +771,20 @@ main {
     display: flex;
     gap: 10px;
 }
+
+.Play-1 {
+    width: 263.75px;
+    height: 170px;
+    border-radius: 3px;
+}
+
+
+.Footer-Play {
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+
+.All-Play {
+    gap: 10px;
+}
