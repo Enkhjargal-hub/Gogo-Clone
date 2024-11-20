@@ -751,3 +751,23 @@ main {
     display: flex;
     gap: 10px;
 }
+
+.Comic-1 {
+    width: 542.5px;
+    height: 200px;
+}
+
+.Comic-section {
+    width: 542.5px;
+    height: 130px;
+    color: #000;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    gap: 40px;
+}
+
+.All-Comic {
+    display: flex;
+    gap: 10px;
+}
