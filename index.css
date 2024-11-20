@@ -788,3 +788,27 @@ main {
 .All-Play {
     gap: 10px;
 }
+
+.Footer-Title {
+    gap: 10px;
+}
+
+.Footer-img {
+    width: 120px;
+    height: 39.23px;
+}
+
+.Footer-gol {
+    width: 1180px;
+    height: 147.65px;
+}
+
+.Element-img {
+    width: 15px;
+    height: 20px;
+}
+
+.Five-element {
+    gap: 10px;
+    font-size: 15px;
+}
