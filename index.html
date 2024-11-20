@@ -95,21 +95,26 @@
             </svg>
         </div>
 
-        <div style="display: flex; align-items: center;">
-            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="25.08"
-                height="25.08" viewBox="0 0 25.08 25.08">
-                <g id="Sunny" transform="translate(-1 -1)">
-                    <g id="Group_272" data-name="Group 272" transform="translate(2 2)">
-                        <circle id="Oval-4" cx="6.155" cy="6.155" r="6.155" transform="translate(5.384 5.384)"
-                            fill="none" stroke="#ff9c05" stroke-width="2"></circle>
-                        <path id="Path-7"
-                            d="M11.54,0V2.473m8.16.907L17.951,5.128M23.08,11.54H20.607M19.7,19.7l-1.749-1.749M11.54,23.08V20.607M3.38,19.7l1.749-1.749M0,11.54H2.473M3.38,3.38,5.128,5.128"
-                            transform="translate(0)" fill="none" stroke="#ff9c05" stroke-linecap="round"
-                            stroke-width="2" fill-rule="evenodd"></path>
+        <div class="Header-weather">
+            <p class="Title-6" style="align-items: center; font-size: 12px;">Цаг агаар</p>
+
+            <div style="display: flex; width: 20px; height: 20px;">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="25.08"
+                    height="25.08" viewBox="0 0 25.08 25.08">
+                    <g id="Sunny" transform="translate(-1 -1)">
+                        <g id="Group_272" data-name="Group 272" transform="translate(2 2)">
+                            <circle id="Oval-4" cx="6.155" cy="6.155" r="6.155" transform="translate(5.384 5.384)"
+                                fill="none" stroke="#ff9c05" stroke-width="2"></circle>
+                            <path id="Path-7"
+                                d="M11.54,0V2.473m8.16.907L17.951,5.128M23.08,11.54H20.607M19.7,19.7l-1.749-1.749M11.54,23.08V20.607M3.38,19.7l1.749-1.749M0,11.54H2.473M3.38,3.38,5.128,5.128"
+                                transform="translate(0)" fill="none" stroke="#ff9c05" stroke-linecap="round"
+                                stroke-width="2" fill-rule="evenodd"></path>
+                        </g>
                     </g>
-                </g>
-            </svg>
-            <p class="Title-6">Цаг агаар</p>
+                </svg>
+                <p>0</p>
+            </div>
+
         </div>
         <div style="display: flex; align-items: center;">
             <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="21.08"
@@ -165,8 +170,11 @@
     </div>
 
     <div class="news-1">
-        <div class="news-card-1">
-            <img class=news-card-1 src="img/news-card 1.jpg">
+        <div class="news-card-1" style="position: relative;">
+            <img class="news-card-1" src="img/news-card 1.jpg">
+
+                <p class="Hide-1">Унших</p>
+              
             <p>Италийн Ерөнхийлөгч улс төрийнх нь асуудалд оролцохгүй байхыг Илон Маскт анхааруулав</p>
 
             <div class=section-1 style="display: flex; align-items: center;">
@@ -1409,37 +1417,51 @@
             </div>
         </div>
 
+
         <div class="Footer-section"
             style="display: flex; width: 100vh; background-color: #fff; justify-content: center; align-items: center; padding-top: 100px;">
-            <div class="Footer-gol">
-                <div>
-                    <img class="Footer-img" src="img/gogo-logo.345096b3.png">
+            <div class="Footer-gol" style="width: 1180px;">
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <div>
+                        <img class="Footer-img" src="img/gogo-logo.345096b3.png">
+                    </div>
+                    <div class="Five-element"
+                        style=" display: flex; align-items: center; justify-content: space-between;">
+                        <div style="display: flex; align-items: center;">
+                            <img class="Element-img" src="img/Footer-logo-1.png">
+                            <p>Бидний тухай</p>
+                        </div>
+
+                        <div style="display: flex; align-items: center;">
+                            <img class="Element-img" src="img/Footer-logo-2.png">
+                            <p>Сурталчилгаа байршуулах</p>
+                        </div>
+
+                        <div style="display: flex; align-items: center;">
+                            <img class="Element-img" src="img/Footer-logo-3.png">
+                            <p>Редакцийн ёс зүй</p>
+                        </div>
+
+                        <div style="display: flex; align-items: center;">
+                            <img class="Element-img" src="img/Footer-logo-4.png">
+                            <p>Нууцлалын бодлого</p>
+                        </div>
+
+                        <div style="display: flex; align-items: center;">
+                            <img class="Element-img" src="img/Footer-logo-5.png">
+                            <p>Холбоо барих</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="Five-element" style=" display: flex; align-items: center; justify-content: center;">
-                    <div style="display: flex; align-items: center;">
-                        <img class="Element-img" src="img/Footer-logo-1.png">
-                        <p>Бидний тухай</p>
-                    </div>
-
-                    <div style="display: flex; align-items: center;">
-                        <img class="Element-img" src="img/Footer-logo-2.png">
-                        <p>Сурталчилгаа байршуулах</p>
-                    </div>
-
-                    <div style="display: flex; align-items: center;">
-                        <img class="Element-img" src="img/Footer-logo-3.png">
-                        <p>Редакцийн ёс зүй</p>
-                    </div>
-
-                    <div style="display: flex; align-items: center;">
-                        <img class="Element-img" src="img/Footer-logo-4.png">
-                        <p>Нууцлалын бодлого</p>
-                    </div>
-
-                    <div style="display: flex; align-items: center;">
-                        <img class="Element-img" src="img/Footer-logo-5.png">
-                        <p>Холбоо барих</p>
-                    </div>
+                <hr style="color: gray;">
+                <div>
+                    <p>2007-2024 Монгол Контент ХХК . Бүх эрх хуулиар хамгаалагдсан</p>
+                </div>
+                <div class="Four">
+                    <img class="Four-img" src="img/Link-1.htm">
+                    <img class="Four-img" src="img/Link-2.htm">
+                    <img class="Four-img" src="img/Link-3.htm">
+                    <img class="Four-img" src="img/Link-4.htm">
                 </div>
             </div>
         </div>
