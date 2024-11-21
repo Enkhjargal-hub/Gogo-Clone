@@ -78,6 +78,29 @@ body {
     display: flex;
     padding-left: 15px;
     padding-right: 15px;
+    flex-direction: column;
+}
+
+.Header-zurhai {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-direction: column;
+}
+
+.Weather-1 {
+    gap: 5px;
+}
+
+.Dollar {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-direction: column;
+}
+
+.Dollar-1 {
+    gap: 15px;
 }
 
 .Title-7 {
@@ -286,7 +309,7 @@ body {
 .section-title {
     height: 25.5px;
     color: #000;
-    font: 26px;
+    font-size: 26px;
     font-weight: bold;
 }
 
@@ -294,12 +317,13 @@ body {
     width: 69.76px;
     height: 25.5px;
     color: #fff;
-    font: 18px;
+    font-size: 18px;
     background-color: #00b0f4;
     padding: 2px 3px;
     border: none;
-    border-radius: 5px;
+    border-radius: 3px;
     margin-left: 10px;
+    align-items: center;
 }
 
 .story-1 {
