@@ -700,6 +700,12 @@ main {
 .Trend-1 {
   gap: 8px;
 }
+.All-image {
+  gap: 30px;
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
 
 .Interview-1 {
   width: 542.5px;
@@ -849,7 +855,7 @@ main {
 }
 
 .Five-element {
-  gap: 10px;
+  gap: 20px;
   font-size: 15px;
   margin-left: 15px;
 }
@@ -893,3 +899,39 @@ main {
   border-radius: 10px;
   z-index: 0;
 }
+
+.Hide-2 {
+    opacity: 0.5;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    margin: 0;
+    border-radius: 10px;
+  
+  }
+
+  .zurag-1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    z-index: 0;
+  }
+
+  .zurag-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .zurag-container:hover .Hide-2 {
+    display: flex;
+  }
