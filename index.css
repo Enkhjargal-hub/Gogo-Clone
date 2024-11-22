@@ -701,15 +701,19 @@ main {
   gap: 8px;
 }
 .All-image {
-  gap: 30px;
   border-radius: 10px;
   padding-left: 40px;
   padding-right: 40px;
+  width: 1180px;
+  margin: 60px 0px 0px;
 }
+
+
 
 .Interview-1 {
   width: 542.5px;
   height: 500px;
+  border-radius: 10px;
 }
 
 .abso-text {
@@ -730,7 +734,9 @@ main {
 .Interview-2 {
   width: 263.75px;
   height: 243px;
+  border-radius: 10px;
 }
+
 
 .History {
   background-color: #1e87f0;
