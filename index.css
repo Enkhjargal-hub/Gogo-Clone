@@ -933,9 +933,25 @@ main {
 
   .zurag-container {
     position: relative;
-    width: 100%;
+    width: 542.5px;
+    height: 385px;
   }
   
   .zurag-container:hover .Hide-2 {
+    display: flex;
+  }
+
+  .News-img {
+    border-radius: 10px;
+    z-index: 0;
+  }
+
+  .News-img-container {
+    position: relative;
+    width: 210px;
+    height: 150px;
+  }
+
+  .News-img-container:hover .Hide-1 {
     display: flex;
   }
