@@ -293,7 +293,6 @@ body {
 .Title-Story {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
 }
 
 .Gogo-story {
@@ -869,6 +868,10 @@ main {
 .Four-img {
   width: 20px;
   height: 20px;
+}
+
+.Four {
+  gap: 15px;
 }
 
 .img-container {
