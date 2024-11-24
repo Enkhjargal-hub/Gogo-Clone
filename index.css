@@ -955,3 +955,78 @@ main {
   .News-img-container:hover .Hide-1 {
     display: flex;
   }
+
+  .Special-img {
+    border-radius: 10px;
+    z-index: 0;
+  }
+
+  .Special-container {
+    position: relative;
+    width: 290px;
+    height: 170px;
+  }
+
+  .Special-container:hover .Hide-1 {
+    display: flex;
+  }
+
+  .Style-1 {
+    border-radius: 10px;
+    z-index: 0;
+  }
+
+  .Style-container {
+    position: relative;
+    width: 263.75px;
+    height: 230px;
+  }
+
+  .Style-container:hover .Hide-1 {
+    display: flex;
+  }
+
+  .tech-img {
+    border-radius: 10px;
+    z-index: 0;
+  }
+
+  .Tech-container {
+    position: relative;
+    width: 263.75px;
+    height: 170px;
+  }
+
+  .Tech-container:hover .Hide-1 {
+    display: flex;
+  }
+
+  .Comic-1 {
+    border-radius: 10px;
+    z-index: 0;
+  }
+
+  .Comic-container {
+    position: relative;
+    width: 542.5px;
+    height: 200px;
+  }
+
+  .Comic-container:hover .Hide-1 {
+    display: flex;
+  }
+
+  .Play-1 {
+    border-radius: 10px;
+    z-index: 0;
+  }
+
+  .Play-container {
+    position: relative;
+    width: 263.75px;
+    height: 170px;
+  }
+
+  .Play-container:hover .Hide-1 {
+    display: flex;
+  }
