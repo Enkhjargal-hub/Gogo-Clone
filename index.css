@@ -1058,3 +1058,7 @@ main {
   .Inter-1:hover p {
       height: 50%;
   }
+
+  .Element-1:hover {
+    color: #1e87f0;
+  }
