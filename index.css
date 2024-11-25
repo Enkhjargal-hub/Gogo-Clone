@@ -1033,3 +1033,28 @@ main {
   .Play-container:hover .Hide-1 {
     display: flex;
   }
+
+  .Inter-1 {
+    position: relative;
+    width: 542.5px;
+    overflow: hidden;
+  }
+  .Interview-container {
+    overflow: hidden;
+  }
+  
+  .Interview-1 {
+    transition: 0.3s;
+    width: 542.5px;
+    height: 500px;
+    object-fit: cover;
+    transition: all 0.3s ease;
+  }
+  
+  .Interview-container .Interview-1:hover {
+    transform: scale(1.2);
+  }
+  
+  .Inter-1:hover p {
+      height: 50%;
+  }
